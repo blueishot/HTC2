@@ -2,7 +2,7 @@
 <img src="https://www.agenciaeplus.com.br/wp-content/uploads/2021/06/logo-agencia-eplus-partner-portal.jpg" width=500px>
 
 # HTC2
-O curso HTC2 (Hall To Code 2), é um curso produzido pela agência E-Plus uma agência de perfomance digital que é focada em 100% no e-commerce, a partir da ideia do Front End Leader da E-Plus o desenvolvedor <a href="linkedin.com/in/marcos-henrique-57a162188/">Marcos Henrique</a>.
+O curso HTC2 (Hall To Code 2), é um curso produzido pela agência E-Plus uma agência de perfomance digital que é focada em 100% no e-commerce, a partir da ideia do Front End Leader da E-Plus o desenvolvedor <a href="https://www.linkedin.com/in/marcos-henrique-57a162188/">Marcos Henrique</a>.
 
 # Objetivo
 
