@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:"Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.brownieBody {
+    width: 916px;
+    height: 1826px;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brownieHeader {
+    margin-top: 24px;
+    margin-left: 59px;
+    margin-right: 59px;
+    background-color: #FFFFFF;
+    padding: 20px 27px 12px 26px;
+}
+
+.brownieTitle {
+    color: #FF6A28;
+    max-width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #333;
+    animation: typing 4s steps(30, end), typeLine .5s step-end infinite;
+}
+
+.subTitle {
+    font-size: 16px;
+}
+
+.browniePicture {
+    margin-top: 14px;
+}
+
+.brownieInformations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.brownieBlocks{
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 85px;
+    border-radius: 5px;
+}
+
+.brownieBlockPicture{
+    margin-bottom: 4.86px;
+}
+
+.brownieBlockTitle{
+    font-size: 14px;
+}
+
+.brownieBlockInfo{
+    color: #FF6A28;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.brownieBigBlock{
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 238px;
+    height: 85px;
+    border-radius: 5px;
+}
+
+.cookPhoto{
+    margin-right: 11px;
+}
+
+.cookName{
+    color: #FF6A28;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.brownieIngredientes {
+    width: 798px;
+    height: 335px;
+    background-color: #FFFFFF;
+    margin-top: 37px;
+}
+
+.headIngredientes, .preparoHeader, .informacoesHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ingredientesImg, .panelaImg{
+    margin-right: 8px;
+}
+
+.ingredientesTitle, .preparoTitle{
+    color: #FF6A28;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.ingredientesList{
+    margin-top: 16.8px;
+    margin-left: 27px;
+    margin-bottom: 30px;
+
+}
+
+.lista{
+    margin-bottom: 10px;    
+    font-size: 14px;
+}
+
+.browniePreparo{
+    width: 798px;
+    height: 405px;
+    background-color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.preparoHeader{
+   margin-bottom: 16px;
+}
+
+.preparoList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 27px;
+    margin-bottom: 13px;
+    margin-right: 8px;
+}
+
+.numberList{
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.preparoInfo{
+    font-size: 14px;
+}
+
+.brownieAdicionais{
+    width: 798px;
+    height: 356px;
+    background-color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+}
+
+.informacoesHeader{
+    width: 754px;
+    height: 34px;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+}
+
+.informacoesTitle{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.informacoesTexto{
+    font-size: 14px;
+    margin: 16px 22px 21px 33px; 
+}
+
+@keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+@keyframes typeLine {
+    from, to {border-color: transparent;}
+    50% {border-color: #333;}
+}
+
