@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tweetBody {
+    border: #DADDDF 1px solid;
+    padding: 17px 16px 19px 17px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    user-select: none;
+    animation: shakeIt 20s linear infinite;
+}
+
+.tweetHeader{
+    display: flex;
+    flex-direction: row;
+}
+
+.tweetProfilePhoto {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 1000000px;
+}
+
+.tweetProfilePhoto:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.tweetPerfil{
+    margin-left: 12px;
+    width: 100%;
+}
+
+.tweetTop{
+    display: flex;
+    flex-direction: row;
+}
+
+.tweetName {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    ;
+}
+
+.tweetName:hover, .tweetDate:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.twitterId {
+    font-size: 15px;
+    color: #536471;
+    margin: 0px 6px;
+}
+
+.tweetDot{
+    display: flex;
+    align-items: center;
+}
+
+.tweetDate{
+    font-size: 15px;
+    color: #536471;
+    margin-left: 6px;
+   
+}
+
+.tweetText{
+    margin-top: 5px;
+}
+
+a {
+    color: #1B95E0;
+    text-decoration: none;
+}
+
+.tweetContentPhoto {
+    display: flex;
+    margin-top: 10px;
+}
+
+.tweetPriest {
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+    width: 504px;
+    height: 283.500;
+    border-radius: 16px;
+    
+}
+
+.tweetPriest:hover {
+    cursor: pointer;
+}
+
+.tweetButtons{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tweetResponder {
+    display: flex;
+    flex-direction: row;
+}
+
+.tweetResponderPhoto {
+    display: flex;
+    align-items: center;
+    margin-right: 17px;
+}
+
+.tweetResponderNumbers {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.tweetResponderPhoto:hover {
+    cursor: pointer;
+}
+
+@keyframes shakeIt {
+    0%, 100% {
+        transform: rotateY(0deg) rotateX(0deg)deg rotateZ(0deg)deg
+    }
+
+    33% {
+        transform: rotateZ(-8deg) rotateX(15deg) rotateY(-9deg)
+    }
+
+    66% {
+        transform: rotateZ(8deg) rotateX(-15deg) rotateY(9deg);
+    }
+}
+
