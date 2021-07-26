@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagens/710f3e0a4595420aba3c793e2f753f5c.jpg);
+    background-repeat: repeat;
+    background-size:contain;
+}
+
+.loginWindow {
+    font-family: "Roboto";
+    padding: 30px 20px 0px 20px;
+    background-color: white;
+
+}
+
+.loginTitle {
+    font-size: 40px;
+    padding: 20px;
+    user-select: none;
+    margin-bottom: 30px;
+}
+
+.loginInput {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginUser {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(196, 196, 196);
+    border: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.loginIcons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 40px;
+
+}
+
+.loginPrincipalButton {
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    user-select: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.loginPrincipalButton:hover {
+    background-color: rgb(196, 195, 195);
+}
+
+.loginError {
+    text-align: center;
+    font-weight: bold;
+    user-select: none;
+    margin-bottom: 15px;
+}
+
+.loginError:hover {
+    cursor: pointer;
+}
