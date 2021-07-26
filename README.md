@@ -17,7 +17,10 @@ A aula 1 teve como objetivo os conceitos básicos de HTML, e utilizando o projet
 <p> O projeto no <b>Figma</b> pode ser acessado clicando <a href="https://www.figma.com/file/1cwSFRvcNzZqy3XQJpD22D/Atividades-HTC?node-id=20%3A14">aqui</a></p>
 
 <p style="font-size:25px"><b>Aula 2</b></p>
-A aula 2 teve como objetivo os conceitos básicos de CSS, e reutilizando o projeto feito no <b>Figma</b> foi feito o mesmo desafio da Aula 1, porém utilizando CSS ao invés de style no HTML.
+<p>A aula 2 teve como objetivo os conceitos básicos de CSS, e reutilizando o projeto feito no <b>Figma</b> foi feito o mesmo desafio da Aula 1, porém utilizando CSS ao invés de style no HTML.</p>
+  
+<p style="font-size:25px"><b>Aula 3</b></p>
+<p>A aula 3 foi basicamente uma aula para fixar conteúdo de display flex, porém um desafio proposto na aula foi para refazer um tweet da nike com html e css que pode ser visto <a href="https://www.figma.com/file/1cwSFRvcNzZqy3XQJpD22D/Atividades-HTC?node-id=40%3A12">aqui</a>, porém utilizei um <a href="https://twitter.com/DuqueNegrom/status/1416545705724981250">tweet</a> de um streamer para fazer esse desafio.</p>
 
 # Agradecimentos
 <p>Agradeço a toda a equipe da E-Plus pela oportunidade de aprender e aperfeiçoar os conhecimentos de Front End aprendidos durante o curso.</p>
