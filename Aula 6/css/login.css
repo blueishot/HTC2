@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap);
+@import url(../fonts/Gilroy-Light.otf);
+
+*  {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    font-family: "Lato";
+    background-color: #302D47;
+}
+
+.loginDiv{
+    margin: 191px 0px 0px 191px;
+}
+
+.loginTitle {
+    color: #FFFFFF;
+    font-size: 109px;
+    text-align: center;
+    user-select: none;
+}
+
+.loginSubtitle {
+    color: #BFBFBF;
+    font-size: 26px;
+    margin-bottom: 89px;
+    text-align: center;
+    user-select: none;
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: #3F3D56;
+    padding-left: 23px;
+    width: 316px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    color: #D2D2D2;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: #D2D2D2;
+    font-size: 20px;
+    font-family: "Gilroy-Light";
+}
+
+.loginSystem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 58px;
+}
+
+.forgotPassword {
+    color:#BFBFBF;
+    font-size: 12px;
+    user-select: none;
+}
+
+.forgotPassword:hover {
+    cursor: pointer;
+}
+
+.Button, .Button2 {
+    background-color: #6C63FF;
+    width: 152px;
+    height: 40px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: " font-family: "Gilroy-Light";";
+}
+
+.Button:hover, .Button2:hover{
+    cursor: pointer;
+    animation: ColorChange 15s linear infinite;
+
+
+}
+
+.Join {
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: " font-family: "Gilroy-Light";";
+    user-select: none;
+}
+
+.register {
+    font-size: 16px;
+    color: #BFBFBF;
+    font-family: "Gilroy-Light";
+    margin-bottom: 25px;
+    user-select: none;
+}
+
+.Button2 {
+    width: 100%;
+}
+
+.coolImg {
+    margin: 226px 0px 0px 365px;
+}
+
+@keyframes ColorChange {
+    10% {
+        background-color: #639cff;
+        color: #9463ff;
+    }
+
+    20% {
+        background-color: #63ddff;
+    }
+
+    30% {
+        background-color: #63ffc8;
+        color: #c663ff;
+    }
+
+    40% {
+        background-color: #63ff97;
+    }
+
+    50% {
+        background-color: #8dff63;
+        color: #fa63ff;
+    }
+
+    60% {
+        background-color: #c6ff63;
+    }
+
+    70% {
+        background-color: #edff63;
+        color:#ff6382;
+    }
+
+    80% {
+        background-color: #ffdd63;
+    }
+
+    90% {
+        background-color: #ffb163;
+        color:#FFFFFF ;
+    }
+
+    100% {
+        background-color:#6C63FF;
+    }
+}
