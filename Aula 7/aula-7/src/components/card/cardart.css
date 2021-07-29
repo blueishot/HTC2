@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../components/homePage/fonts/Gilroy-Light.otf);
+}
+
+.containerCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.bodyCard {
+    width: 355px;
+    height: 439px;
+    background-color: #000000;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: 76px;
+    margin-left: 40px;
+}
+
+.bodyCard::before {
+    content: '';
+    position:absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background-color:#440462;
+    animation: cardColor 10s infinite linear;
+    transform: skewY(52deg);
+    transition: 1s;
+}
+
+.bodyCard:hover::before {
+    transform: skewY(0deg);
+}
+
+.bodyCard::after {
+    content: 'HTC';
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    font-size: 10em;
+    color: rgba(10, 207, 241, 0.1);
+}
+
+.imgBox {
+    position: relative;
+    max-width: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.udyrImg{
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.imgBox, img, .bodyCard {
+    max-width: 100%;
+    transition: 1s;
+
+}
+
+.bodyCard:hover  {
+    max-width: 50%;
+    max-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informations {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Gilroy';
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+.buyButton {
+    background-color: #6C63FF;
+    padding: 17px 50px 15px 49px;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    border-radius: 7px;
+    user-select: none;
+    margin-left: 15px;
+    height: 23px;
+    max-height: 55px;
+    min-height: 10px;
+    border: transparent 2px solid;
+    position: relative;
+    color: #FFFFFF;
+}
+
+img {
+    user-select: none;
+}
+
+
+
+@keyframes cardColor {
+    10% {
+        background-color: #62045a ;
+    }
+
+    20% {
+        background-color: #620443;
+    }
+    
+    30% {
+        background-color: #620426;
+    }
+    
+    40% {
+        background-color: #620406;
+    }
+    
+    50% {
+        background-color: #621504;
+    }
+    
+    60% {
+        background-color: #623504;
+    }
+    
+    70% {
+        background-color: #396204 ;
+    }
+    
+    80% {
+        background-color: #046262;
+    }
+    
+    90% {
+        background-color: #041c62;
+    }
+    
+    100% {
+        background-color: #440462;
+    }
+
+}
