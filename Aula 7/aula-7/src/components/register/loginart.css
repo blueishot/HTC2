@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap);
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../homePage/fonts/Gilroy-Light.otf);
+}
+
+body {
+    background-color: #302D47;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.loginComponents {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.loginName {
+    font-family: 'Lato';
+    font-size: 109px;
+    color: #FFFFFF;
+    animation: udyrColor 30s linear infinite;
+    user-select: none;
+}
+
+.loginName::first-letter{
+    text-transform: uppercase;
+}
+
+.loginSubTitle {
+    font-family: 'Gilroy';
+    font-size: 26px;
+    color: #BFBFBF;
+    user-select: none;
+}
+
+.loginInput {
+    background-color: #3F3D56;
+    font-family: 'Gilroy';
+    color: #D2D2D2;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+
+@keyframes udyrColor {
+    10% {
+        color: #73FDFF;
+    }
+
+    15% {
+        color: #04A4FA;
+    }
+
+    20% {
+        color: #049FEF;
+    }
+
+    30% {
+        color: #9EEF77;
+    }
+
+    35% {
+        color: #13570C;
+    }
+
+    40% {
+        color: #073302;
+    }
+
+    50% {
+        color: #F4CA36;
+    }
+
+    55% {
+        color: #E37502;
+    }
+
+    60% {
+        color: #9E3A00;
+    }
+
+    70% {
+        color: #AC0732;
+    }
+
+    75% {
+        color: #E62A2B;
+    }
+
+    80% {
+        color: #BB0E22;
+    }
+}

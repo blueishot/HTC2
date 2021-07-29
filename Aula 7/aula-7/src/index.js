@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
-import Homepage from './components/homePage/Homepage'
+import Yourname from './components/register/Yourname.js'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Homepage />
+    <Yourname />
   </React.StrictMode>,
   document.getElementById('root')
 );
