@@ -28,6 +28,9 @@ A aula 1 teve como objetivo os conceitos básicos de HTML, e utilizando o projet
 <p style="font-size:25px"><b>Aula 6</b></p>
 <p>A aula 6 é basicamente a recriação de um site de e-commerce com um sistema de login e uma parte de produtos, porém apenas estilização por enquanto que pode ser visto <a href="https://xd.adobe.com/view/a8954440-445b-4de8-8280-a3c2b4187117-fdc6/screen/f79b65b0-f0c2-4a63-8f1d-809ef2894ae1/">aqui</a></p>
 
+<p style="font-size:25px"><b>Aula 7</b></p>
+<p>A aula 7 é a continuação da recriação de um site de e-commerce com um sistema de login e uma parte de produtos, porém apenas estilização por enquanto que pode ser visto <a href="https://xd.adobe.com/view/a8954440-445b-4de8-8280-a3c2b4187117-fdc6/screen/f79b65b0-f0c2-4a63-8f1d-809ef2894ae1/">aqui</a></p>
+  
 # Agradecimentos
 <p>Agradeço a toda a equipe da E-Plus pela oportunidade de aprender e aperfeiçoar os conhecimentos de Front End aprendidos durante o curso.</p>
 <p><b>Menciono também, um grande interesse por fazer parte da equipe da E-Plus, atualmente estudo ADS pela Faculdade Impacta e busco estágio principalmente na área de Front End, pois é uma área que me apaixonei desde que comecei a estudar programação, e caso a diretoria e os superiores da mesma sintam interesse em meu perfil e nas minhas habilidades e queiram me dar uma oportunidade para estagiar com essa grande equipe que forma a E-Plus eu ficaria profundamente agradecido.</b></p>
