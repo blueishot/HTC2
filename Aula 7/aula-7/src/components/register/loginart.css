@@ -10,15 +10,21 @@ body {
 
 .container {
     height: 100vh;
-    width: 100%;
     display: flex;
     align-items: center;
 }
 
 .loginComponents {
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.loginHere{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .loginName {
@@ -46,10 +52,50 @@ body {
     color: #D2D2D2;
     font-size: 20px;
     border: none;
-    padding: 10px;
+    padding: 15px;
     border-radius: 7px;
-
+    border: 0;
+    height: 23px;
+    max-height: 55px;
+    min-height: 10px;
+    width: 100%;
+    margin: 89px 0px 25px 0px; 
 }
+
+.loginInput:focus {
+    outline: none;
+    border: #6059aa solid 4px;  
+}
+
+::placeholder {
+    color: #8D8BA4;
+    padding: 5px;
+    cursor: text;
+    font-size: 15px;
+    background-color: #3F3D56;
+}
+
+.button {
+    background-color: #6C63FF;
+    padding: 17px 50px 15px 49px;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    border-radius: 7px;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 15px;
+    height: 23px;
+    max-height: 55px;
+    min-height: 10px;
+    border: transparent 2px solid;
+    text-align: center;
+}
+
+.button:hover {
+    border: solid 2px black;
+}
+
 
 @keyframes udyrColor {
     10% {
