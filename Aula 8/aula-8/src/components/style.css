@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Segoe';
+    src: url(../components/fonts/segoe-ui.otf);
+}
+
+body {
+    background-color: #82CDFF;
+    user-select: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playerWinner {
+    font-family: 'Segoe';
+    color: #FFFFFF;
+    font-size: 33px;
+    background-color: #0099FF;
+    width: 430px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 12px 12px 0px 0px;
+}   
+
+.playersSystem {
+    background-color: #0099FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 949px;
+    justify-content: space-around;
+    border-radius: 17px;
+}
+
+.players {
+    color: #FFFFFF;
+    font-family: 'Segoe';
+    font-size: 38px;
+}
+
+.playerPoints {
+    color: #0099FF;
+    background-color: #DBF1FF;
+    font-size: 80px;
+    font-family: 'Segoe';
+    font-weight: bolder;
+    border-radius: 20px;
+    width: 113px;
+    height: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px;
+}
+
+.playerVS {
+    font-family: 'Segoe';
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: bolder;
+}
+
+.theGame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 56px;
+}
+
+.playerButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 368px;
+}
+
+.button {
+    color: #DBF1FF;
+    font-size: 44px;
+    background-color: #0099FF;
+    border-radius: 8px;
+    width: 220px;
+    text-align: center;
+    font-family: 'Segoe';
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: 1s;
+    background-color:#0e5585;
+    
+}
+
+.arena {
+    background-color: #0099FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 17px;
+    width: 1313px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.whiteSpace {
+    width: 464px;
+    height: 345px;
+    background-color: #DBF1FF;
+    border-radius: 17px;
+
+}
